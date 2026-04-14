@@ -13,7 +13,6 @@ body {
     color: white;
     text-align: center;
 
-    /* ✅ scrolling enabled */
     overflow-x: hidden;
     overflow-y: auto;
     min-height: 100vh;
@@ -130,7 +129,7 @@ img {
 <!-- MAIN CONTENT -->
 <div id="mainContent">
 
-    <!-- 🎵 MUSIC (FIXED) -->
+    <!-- 🎵 MUSIC -->
     <iframe id="music"
         width="0"
         height="0"
@@ -181,9 +180,9 @@ function checkPassword() {
         document.getElementById("login").style.display = "none";
         document.getElementById("mainContent").style.display = "block";
 
-        // 🎵 START MUSIC (Perfect - Ed Sheeran)
+        // 🎵 NEW ROMANTIC MUSIC
         document.getElementById("music").src =
-        "https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1&loop=1&playlist=2Vv-BfVoq4g";
+        "https://www.youtube.com/embed/Gz9e3DYp8kQ?autoplay=1&mute=1&loop=1&playlist=Gz9e3DYp8kQ";
 
         startTyping();
         heartBurst();
@@ -238,7 +237,7 @@ function heartBurst() {
         setTimeout(() => heart.remove(), 1000);
     }
 }
-  
+
 </script>
 
 </body>
